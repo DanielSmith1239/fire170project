@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09ED1A8070D5C535CC01B681 /* Pods_ARImageTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42D024A1A8185FD69808CAB /* Pods_ARImageTracker.framework */; };
+		F7001C862177B7F000FCD361 /* QuestionAnalytic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7001C852177B7F000FCD361 /* QuestionAnalytic.swift */; };
+		F70E95C8218CCA41002A4E15 /* ClueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70E95C7218CCA41002A4E15 /* ClueCell.xib */; };
+		F71A025E21653E53001A7507 /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A025D21653E53001A7507 /* TriviaQuestion.swift */; };
+		F71A026021653EA5001A7507 /* TriviaQuestionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A025F21653EA5001A7507 /* TriviaQuestionOption.swift */; };
+		F71A026321653FA7001A7507 /* PopupViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A026221653FA7001A7507 /* PopupViewDelegate.swift */; };
+		F71A026521654019001A7507 /* TriviaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71A026421654019001A7507 /* TriviaGame.swift */; };
+		F71F8E78217511B5000E9590 /* ScrollingPopupViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71F8E77217511B5000E9590 /* ScrollingPopupViewContainer.swift */; };
+		F72A11BA216D43360021F33D /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A11B9216D43350021F33D /* PopupView.swift */; };
+		F72AF5CF2190CF0F00164250 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F72AF5CE2190CF0E00164250 /* GoogleService-Info.plist */; };
+		F72E88902051C47D006E538B /* PaintingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72E888F2051C47D006E538B /* PaintingInfoView.swift */; };
+		F731D3692195FA980036DB7E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731D3682195FA980036DB7E /* Game.swift */; };
+		F7529070216E5D09005520E7 /* BasicPopupInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752906F216E5D09005520E7 /* BasicPopupInfoView.swift */; };
+		F7529073216E6019005520E7 /* UIButton_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7529072216E6019005520E7 /* UIButton_Extensions.swift */; };
+		F7529075216E8D1A005520E7 /* BasicPopupInfoViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7529074216E8D1A005520E7 /* BasicPopupInfoViewDelegate.swift */; };
 		F7BC3DCA204F23A100E123E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC3DC9204F23A100E123E6 /* AppDelegate.swift */; };
 		F7BC3DCC204F23A100E123E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BC3DCB204F23A100E123E6 /* ViewController.swift */; };
 		F7BC3DCF204F23A100E123E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BC3DCD204F23A100E123E6 /* Main.storyboard */; };
-		F7BC3DD1204F23A100E123E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BC3DD0204F23A100E123E6 /* Assets.xcassets */; };
 		F7BC3DD4204F23A100E123E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BC3DD2204F23A100E123E6 /* LaunchScreen.storyboard */; };
+		F7BF97702050685A000DAA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BF976F2050685A000DAA8F /* Assets.xcassets */; };
+		F7BF977720506DA6000DAA8F /* DetectionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BF977620506DA6000DAA8F /* DetectionImage.swift */; };
+		F7FFDD1021878603003D4FE4 /* ScavangerHuntCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFDD0F21878603003D4FE4 /* ScavangerHuntCreatorView.swift */; };
+		F7FFDD1221878BC5003D4FE4 /* ClueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFDD1121878BC5003D4FE4 /* ClueRow.swift */; };
+		F7FFDD1421878C1F003D4FE4 /* Clue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFDD1321878C1F003D4FE4 /* Clue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		492BD1FFCA7B92D4141CA4B6 /* Pods-ARImageTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARImageTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARImageTracker/Pods-ARImageTracker.release.xcconfig"; sourceTree = "<group>"; };
+		9526FB16D4EE11C02D12D420 /* Pods-ARImageTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARImageTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARImageTracker/Pods-ARImageTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		C42D024A1A8185FD69808CAB /* Pods_ARImageTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARImageTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7001C852177B7F000FCD361 /* QuestionAnalytic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionAnalytic.swift; sourceTree = "<group>"; };
+		F70E95C7218CCA41002A4E15 /* ClueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClueCell.xib; sourceTree = "<group>"; };
+		F71A025D21653E53001A7507 /* TriviaQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
+		F71A025F21653EA5001A7507 /* TriviaQuestionOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaQuestionOption.swift; sourceTree = "<group>"; };
+		F71A026221653FA7001A7507 /* PopupViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewDelegate.swift; sourceTree = "<group>"; };
+		F71A026421654019001A7507 /* TriviaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGame.swift; sourceTree = "<group>"; };
+		F71F8E77217511B5000E9590 /* ScrollingPopupViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingPopupViewContainer.swift; sourceTree = "<group>"; };
+		F72A11B9216D43350021F33D /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		F72AF5CE2190CF0E00164250 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F72E888F2051C47D006E538B /* PaintingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingInfoView.swift; sourceTree = "<group>"; };
+		F731D3682195FA980036DB7E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F752906F216E5D09005520E7 /* BasicPopupInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPopupInfoView.swift; sourceTree = "<group>"; };
+		F7529072216E6019005520E7 /* UIButton_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_Extensions.swift; sourceTree = "<group>"; };
+		F7529074216E8D1A005520E7 /* BasicPopupInfoViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicPopupInfoViewDelegate.swift; sourceTree = "<group>"; };
 		F7BC3DC6204F23A100E123E6 /* ARImageTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARImageTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BC3DC9204F23A100E123E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7BC3DCB204F23A100E123E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7BC3DCE204F23A100E123E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7BC3DD0204F23A100E123E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7BC3DD3204F23A100E123E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7BC3DD5204F23A100E123E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BF976F2050685A000DAA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7BF977620506DA6000DAA8F /* DetectionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionImage.swift; sourceTree = "<group>"; };
+		F7FFDD0F21878603003D4FE4 /* ScavangerHuntCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavangerHuntCreatorView.swift; sourceTree = "<group>"; };
+		F7FFDD1121878BC5003D4FE4 /* ClueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueRow.swift; sourceTree = "<group>"; };
+		F7FFDD1321878C1F003D4FE4 /* Clue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09ED1A8070D5C535CC01B681 /* Pods_ARImageTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D41C94C0D046BBB85DB0FA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C42D024A1A8185FD69808CAB /* Pods_ARImageTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63E15DC9037F85D9716650AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9526FB16D4EE11C02D12D420 /* Pods-ARImageTracker.debug.xcconfig */,
+				492BD1FFCA7B92D4141CA4B6 /* Pods-ARImageTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7001C842177B7E200FCD361 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F7001C852177B7F000FCD361 /* QuestionAnalytic.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		F71A026121653F8B001A7507 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F71A026221653FA7001A7507 /* PopupViewDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F752906E216E5CA9005520E7 /* Popup Views */ = {
+			isa = PBXGroup;
+			children = (
+				F72E888F2051C47D006E538B /* PaintingInfoView.swift */,
+				F752906F216E5D09005520E7 /* BasicPopupInfoView.swift */,
+				F72A11B9216D43350021F33D /* PopupView.swift */,
+				F7529074216E8D1A005520E7 /* BasicPopupInfoViewDelegate.swift */,
+				F71F8E77217511B5000E9590 /* ScrollingPopupViewContainer.swift */,
+			);
+			path = "Popup Views";
+			sourceTree = "<group>";
+		};
+		F7529071216E600A005520E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7529072216E6019005520E7 /* UIButton_Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F7BC3DBD204F23A000E123E6 = {
 			isa = PBXGroup;
 			children = (
 				F7BC3DC8204F23A100E123E6 /* ARImageTracker */,
 				F7BC3DC7204F23A100E123E6 /* Products */,
+				63E15DC9037F85D9716650AA /* Pods */,
+				1D41C94C0D046BBB85DB0FA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +150,60 @@
 		F7BC3DC8204F23A100E123E6 /* ARImageTracker */ = {
 			isa = PBXGroup;
 			children = (
-				F7BC3DC9204F23A100E123E6 /* AppDelegate.swift */,
-				F7BC3DCB204F23A100E123E6 /* ViewController.swift */,
-				F7BC3DCD204F23A100E123E6 /* Main.storyboard */,
-				F7BC3DD0204F23A100E123E6 /* Assets.xcassets */,
-				F7BC3DD2204F23A100E123E6 /* LaunchScreen.storyboard */,
-				F7BC3DD5204F23A100E123E6 /* Info.plist */,
+				F72AF5CE2190CF0E00164250 /* GoogleService-Info.plist */,
+				F7529071216E600A005520E7 /* Extensions */,
+				F7BF977520506D93000DAA8F /* Models */,
+				F752906E216E5CA9005520E7 /* Popup Views */,
+				F71A026121653F8B001A7507 /* Protocols */,
+				F7BF977420506D6A000DAA8F /* Views */,
+				F7BF977320506D5D000DAA8F /* View Controllers */,
+				F7BF977120506D35000DAA8F /* Resources */,
 			);
 			path = ARImageTracker;
+			sourceTree = "<group>";
+		};
+		F7BF977120506D35000DAA8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC3DC9204F23A100E123E6 /* AppDelegate.swift */,
+				F7BC3DD5204F23A100E123E6 /* Info.plist */,
+				F7BF976F2050685A000DAA8F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7BF977320506D5D000DAA8F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC3DCB204F23A100E123E6 /* ViewController.swift */,
+				F7FFDD0F21878603003D4FE4 /* ScavangerHuntCreatorView.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F7BF977420506D6A000DAA8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7BC3DD2204F23A100E123E6 /* LaunchScreen.storyboard */,
+				F7BC3DCD204F23A100E123E6 /* Main.storyboard */,
+				F70E95C7218CCA41002A4E15 /* ClueCell.xib */,
+				F7FFDD1121878BC5003D4FE4 /* ClueRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7BF977520506D93000DAA8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7001C842177B7E200FCD361 /* Analytics */,
+				F7BF977620506DA6000DAA8F /* DetectionImage.swift */,
+				F71A025D21653E53001A7507 /* TriviaQuestion.swift */,
+				F71A025F21653EA5001A7507 /* TriviaQuestionOption.swift */,
+				F71A026421654019001A7507 /* TriviaGame.swift */,
+				F731D3682195FA980036DB7E /* Game.swift */,
+				F7FFDD1321878C1F003D4FE4 /* Clue.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7BC3DD8204F23A100E123E6 /* Build configuration list for PBXNativeTarget "ARImageTracker" */;
 			buildPhases = (
+				B93964872F517944AD31A79C /* [CP] Check Pods Manifest.lock */,
 				F7BC3DC2204F23A100E123E6 /* Sources */,
 				F7BC3DC3204F23A100E123E6 /* Frameworks */,
 				F7BC3DC4204F23A100E123E6 /* Resources */,
+				529DDFAF3795DD508C36CFB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,11 +235,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Daniel Smith";
 				TargetAttributes = {
 					F7BC3DC5204F23A100E123E6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,20 +269,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7BC3DD4204F23A100E123E6 /* LaunchScreen.storyboard in Resources */,
-				F7BC3DD1204F23A100E123E6 /* Assets.xcassets in Resources */,
+				F7BF97702050685A000DAA8F /* Assets.xcassets in Resources */,
+				F72AF5CF2190CF0F00164250 /* GoogleService-Info.plist in Resources */,
+				F70E95C8218CCA41002A4E15 /* ClueCell.xib in Resources */,
 				F7BC3DCF204F23A100E123E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		529DDFAF3795DD508C36CFB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARImageTracker/Pods-ARImageTracker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARImageTracker/Pods-ARImageTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93964872F517944AD31A79C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARImageTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7BC3DC2204F23A100E123E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71F8E78217511B5000E9590 /* ScrollingPopupViewContainer.swift in Sources */,
+				F731D3692195FA980036DB7E /* Game.swift in Sources */,
+				F72A11BA216D43360021F33D /* PopupView.swift in Sources */,
+				F7FFDD1021878603003D4FE4 /* ScavangerHuntCreatorView.swift in Sources */,
+				F7001C862177B7F000FCD361 /* QuestionAnalytic.swift in Sources */,
+				F71A025E21653E53001A7507 /* TriviaQuestion.swift in Sources */,
+				F7529075216E8D1A005520E7 /* BasicPopupInfoViewDelegate.swift in Sources */,
 				F7BC3DCC204F23A100E123E6 /* ViewController.swift in Sources */,
+				F7529073216E6019005520E7 /* UIButton_Extensions.swift in Sources */,
+				F7BF977720506DA6000DAA8F /* DetectionImage.swift in Sources */,
+				F7FFDD1221878BC5003D4FE4 /* ClueRow.swift in Sources */,
+				F72E88902051C47D006E538B /* PaintingInfoView.swift in Sources */,
+				F71A026521654019001A7507 /* TriviaGame.swift in Sources */,
+				F7529070216E5D09005520E7 /* BasicPopupInfoView.swift in Sources */,
+				F7FFDD1421878C1F003D4FE4 /* Clue.swift in Sources */,
 				F7BC3DCA204F23A100E123E6 /* AppDelegate.swift in Sources */,
+				F71A026321653FA7001A7507 /* PopupViewDelegate.swift in Sources */,
+				F71A026021653EA5001A7507 /* TriviaQuestionOption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +399,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +407,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +458,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +466,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,30 +498,34 @@
 		};
 		F7BC3DD9204F23A100E123E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9526FB16D4EE11C02D12D420 /* Pods-ARImageTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BE777GSFM;
-				INFOPLIST_FILE = ARImageTracker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ARImageTracker/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danismithproductions.ARImageTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F7BC3DDA204F23A100E123E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492BD1FFCA7B92D4141CA4B6 /* Pods-ARImageTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BE777GSFM;
-				INFOPLIST_FILE = ARImageTracker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ARImageTracker/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danismithproductions.ARImageTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
